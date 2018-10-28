@@ -12,7 +12,7 @@ public class App {
         Vector vector1 = new Vector(N);
         Vector vector2 = new Vector(N);
 
-        int finish = vector1.scalar(vector2);
+        int finish = vector1.scalarMultiplication(vector2);
     }
 }
 
@@ -44,7 +44,7 @@ class Vector {
     }
 
 
-    int scalar(Vector vector1) {
+    int scalarMultiplication(Vector vector1) {
 
         int scalar = 0;
         for (int i = 0; i < size; i++)

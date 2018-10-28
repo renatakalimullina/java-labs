@@ -20,7 +20,7 @@ public class AppTest extends TestCase
         Vector B = new Vector(testArray_2);
 
 
-        assertEquals(A.scalar(B), 26);
+        assertEquals(A.scalarMultiplication(B), 26);
     }
 
 
@@ -33,7 +33,7 @@ public class AppTest extends TestCase
         Vector A = new Vector(testArray_1);
         Vector B = new Vector(testArray_2);
 
-        assertEquals(A.scalar(B), 0);
+        assertEquals(A.scalarMultiplication(B), 0);
     }
 
     /**
