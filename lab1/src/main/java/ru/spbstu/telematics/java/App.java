@@ -13,11 +13,6 @@ public class App {
         Vector vector2 = new Vector(N);
 
         int finish = vector1.scalar(vector2);
-
-        System.out.println(" \n");
-        System.out.println(finish);
-
-
     }
 }
 

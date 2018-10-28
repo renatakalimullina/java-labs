@@ -10,7 +10,7 @@ import junit.framework.TestSuite;
 public class AppTest extends TestCase
 {
 
-    public void testScalar1(){
+    public void testScalar(){
 
         int[] testArray_1 = {1, 2, 3};
         int[] testArray_2 = {3, 4, 5};
@@ -24,7 +24,7 @@ public class AppTest extends TestCase
     }
 
 
-    public void testScalar2(){
+    public void testScalarOrthogonality(){
 
         int[] testArray_1 = {1, 2};
         int[] testArray_2 = {2, -1};
