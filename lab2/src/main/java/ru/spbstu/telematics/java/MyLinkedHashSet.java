@@ -13,6 +13,11 @@ public class MyLinkedHashSet<T> extends AbstractSet<T> implements Collection<T>,
     private T first;  //для того, чтобы запомнить первый элемент, который добавили
     private Cell lastPtr = new Cell(); //для запоминания последнего добавленного элемента
 
+
+
+
+
+
     MyLinkedHashSet() { size = 0; }
 
     public boolean add(T val)
@@ -95,14 +100,11 @@ public class MyLinkedHashSet<T> extends AbstractSet<T> implements Collection<T>,
             {
                 lastCell.next = nextCell;
                 lastPtr = lastCell;
-                lastCell = null;
-                //int u = 0;
             }
             else
             {
                 first = (T) nextCell.value;
                 nextCell.last = null;
-                nextCell = null;
             }
 
             map.remove(hashCode);
@@ -176,7 +178,50 @@ public class MyLinkedHashSet<T> extends AbstractSet<T> implements Collection<T>,
         return;
     }
 
-    public Iterator<T> iterator() {
-        return (Iterator<T>) map.entrySet().iterator();
+
+    @Override
+    public Iterator<T> iterator()
+    {
+        return new Iterator<T>()
+        {
+            T current = first;
+            int firstIterate = 0;
+
+
+            @Override
+            public boolean hasNext()
+            {
+                int hashCode = current.hashCode();
+                if(map.get(hashCode).next != null)
+                    return true;
+                else
+                    return false;
+            }
+
+            @Override
+            public T next()
+            {
+                int hashCode = current.hashCode();
+                if(firstIterate == 0)
+                {
+                    firstIterate++;
+                    return current;
+                }
+                if(map.get(hashCode).next != null)
+                {
+                    Cell q = map.get(hashCode).next;
+                    current = (T) q.value;
+                    return current;
+                }
+                else
+                    return null;
+            }
+
+            public void remove()
+            {
+
+            }
+        };
+        //return (Iterator<T>) map.entrySet().iterator();
     }
 }

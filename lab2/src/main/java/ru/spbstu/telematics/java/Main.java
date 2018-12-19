@@ -5,12 +5,17 @@ public class Main {
     public static void main(String[] args)
     {
         MyLinkedHashSet<Integer> ghj = new MyLinkedHashSet<>();
-
+       //Set<Integer> ghj = new LinkedHashSet<>();
         ghj.add(1);
         ghj.add(9);
         ghj.add(4);
 
-        ghj.print();
+       // ghj.print();
+
+
+        for(Integer i: ghj) {
+            System.out.println(i);
+        }
 
         var it = ghj.iterator();
         it.next();
@@ -28,21 +33,21 @@ public class Main {
         ghj.add(1);
         ghj.add(4);
         ghj.add(9);
-
-        ghj.print();
-
-        ghj.remove(4);
-
-        ghj.print();
-
-        ghj.add(4);
-
-        ghj.print();
-
-
-        int i =  ghj.getValue(9);
-
-        i = ghj.getKey(4);
+//
+//        ghj.print();
+//
+//        ghj.remove(4);
+//
+//        ghj.print();
+//
+//        ghj.add(4);
+//
+//        ghj.print();
+//
+//
+//        int i =  ghj.getValue(9);
+//
+//        i = ghj.getKey(4);
 
     }
 }
