@@ -2,6 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548b125f-7a07-4b16-91a4-031fbe0074e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../123333/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../123333/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../123333/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../123333/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../123333/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../123333/123333.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../123333/out/production/123333/ru/spbstu/telematics/java/Cell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../123333/out/production/123333/ru/spbstu/telematics/java/Collection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../123333/out/production/123333/ru/spbstu/telematics/java/Iterable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../123333/out/production/123333/ru/spbstu/telematics/java/LinkedHashSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../123333/out/production/123333/ru/spbstu/telematics/java/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../123333/src/ru/spbstu/telematics/java/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../123333/src/ru/spbstu/telematics/java/Collection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../123333/src/ru/spbstu/telematics/java/Iterable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../123333/src/ru/spbstu/telematics/java/LinkedHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../123333/src/ru/spbstu/telematics/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Collection/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Collection/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Collection/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Collection/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Collection/Collection.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../lab2/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
@@ -9,7 +30,19 @@
       <change afterPath="$PROJECT_DIR$/../lab2/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../lab2/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../lab2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../lab2/lab2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/src/main/java/ru/spbstu/telematics/java/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/src/main/java/ru/spbstu/telematics/java/Collection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/src/main/java/ru/spbstu/telematics/java/Iterable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/src/main/java/ru/spbstu/telematics/java/LinkedHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/src/main/java/ru/spbstu/telematics/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/target/classes/ru/spbstu/telematics/java/Cell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/target/classes/ru/spbstu/telematics/java/Collection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/target/classes/ru/spbstu/telematics/java/Iterable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/target/classes/ru/spbstu/telematics/java/LinkedHashSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/target/classes/ru/spbstu/telematics/java/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/target/test-classes/ru/spbstu/telematics/java/AppTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/spbstu/telematics/java/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/spbstu/telematics/java/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/spbstu/telematics/java/Vector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/spbstu/telematics/java/Vector.class" afterDir="false" />
@@ -28,7 +61,7 @@
     <session id="-1225489263">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
@@ -291,7 +324,7 @@
       <workItem from="1543324742340" duration="626000" />
       <workItem from="1543347978851" duration="60000" />
       <workItem from="1544559338648" duration="591000" />
-      <workItem from="1544560671245" duration="861000" />
+      <workItem from="1544560671245" duration="1062000" />
     </task>
     <servers />
   </component>
@@ -325,7 +358,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19221000" />
+    <option name="totallyTimeSpent" value="19422000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
