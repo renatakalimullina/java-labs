@@ -2,13 +2,38 @@ package ru.spbstu.telematics.java;
 
 public class Customer extends Thread
 {
+    public class CustomerGenerator extends Thread
+    {
+        CustomerGenerator()
+        {
+
+        }
+
+        public void run()
+        {
+
+        }
+
+    }
+
+
+
+
+
+
     Customer (boolean isGreedyValue, Queue queueValue)
     {
         isGreedy = isGreedyValue;
         queue = queueValue;
         queue.add(this);
     }
-    boolean isGreedy = false;
+
+    int count; //количество покупателей
+    boolean resource = true; //ресурс свободен
+    boolean isGreedy = false; //не жадный
+
+
+
     static int duration = 3000;
     Queue queue;
 
