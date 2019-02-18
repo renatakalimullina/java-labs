@@ -1,0 +1,3 @@
+/home/renata/CLionProjects/lab4C/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/renata/CLionProjects/lab4C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/renata/CLionProjects/lab4C/cmake-build-debug/CMakeFiles/kurs.dir

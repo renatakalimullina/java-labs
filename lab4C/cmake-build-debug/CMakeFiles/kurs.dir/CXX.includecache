@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/renata/CLionProjects/lab4C/main.cpp
+sys/time.h
+-
+iostream
+-
+pthread.h
+-
+cmath
+-
+omp.h
+-
+
